@@ -1,0 +1,149 @@
+/* CSS Document */
+body{
+	background-color:#FAE6FA ;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+#bd_con_all{
+	position:absolute;
+	top:20%;
+}
+
+#blog_sel{
+	position:fixed;
+	top:19.7%;
+	text-align:center;
+	background-color:#98a9fa;
+	width:24%;
+	height:80%;
+	z-index:999;
+	border:1px solid #fff;
+	float:left;
+}
+
+#blog_sel h1{
+	font-size:250%;
+	padding:2%;
+	background-color:blue;
+	color:#fff
+}
+
+#blog_sel ul li{
+	line-height:50px;
+	text-align:center;
+	display:block;
+	border:1px solid #000;
+}
+#blog_sel ul li a{
+	
+	font-size:150%;
+	text-decoration:none;
+	color:white;
+}
+
+#blog_con{
+	position:relative;
+	top:20%;
+	background-color:#f546e9;
+	width:76%;
+	height:100%;
+	float:right;
+}	
+
+#tab{
+	border-collapse: collapse;
+	width:100%;
+}
+td, th {
+    /*border: 1px solid #000;*/
+    padding: 8px;
+}
+#form{
+	position:absolute;
+	top:25%;
+	margin-left:25%;
+	margin-right:25%;
+	font-size:24px;
+	text-align:center;
+	z-index:-999;
+	background-color:#d8d8d8;
+	text-shadow:2px 0px #7F7F7F;
+}
+textarea ,input:focus {
+    border: 3px solid #555;
+}
+.input1{
+	font-size:30px;
+	width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+	background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#res_but{
+	background-color: red;
+}
+#sub_but{
+	background-color: #4CAF50;
+}
+.button{
+	
+    border: none;
+	border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.t1{
+	text-align:right;
+}
+.t2{
+	text-align:left;
+}
+
+
+
+
+#achive1{
+	border:1px solid;
+}
+/* addmission css start*/
+#d1{
+  	background-color:#FF7DFF;
+	margin:auto;
+	width:70%;
+	border:hidden;
+}
+#d1 h1 ,h2{
+	text-align:center;
+	background-color:blue;
+	padding:1%;
+}
+/* addmission css end*/
+#d2{
+	padding:0px;
+	cellspacing:0px;
+	border:hidden;
+	border:#F0F;
+}
+
+
+
+#img_gal{
+	width:90%;
+	height:45%;
+	margin:2%;
+	
+}
+
+#mess_pri{
+	position:relative;
+	background-color:#dcecfc;
+}
